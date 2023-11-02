@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <form name="Student form" method="post">
+            <fieldset>
+                <legend>Personal Info</legend>
+                First Name <input type="text" name="Anjali"><br><br>
+                Last Name  <input type="text" name="Patil"><br><br>
+                Gender     <input type="radio" name="Anjali">Male 
+                           <input type="radio" name="Anjali">Female
+                           <input type="radio" name="Anjali">Transgender
+
+                           <br><br>
+                Lang Known <input type="checkbox" name="Anjali">Marathi
+                           <input type="checkbox" name="Anjali">Hindi
+                           <input type="checkbox" name="Anjali">English<br><br>
+                Country
+                <select>
+                    <option>India</option>
+                    <option>Russia</option>
+                    <option>USA</option>
+                </select><br><br>
+                City
+                <input list="city">
+                <datalist id="city">
+                    <option value="Pune"></option>
+                    <option value="Dhule"></option>
+                    <option value="Mumbai"></option>
+                    <option value="Nagpur"></option>
+                </datalist><br><br>
+                Address 
+                <textarea spellcheck="true" cols="30" rows="1">write your text...</textarea><br><br>
+                <input type="Submit" name="Submit" value="Submit">
+                <button>Reset</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
